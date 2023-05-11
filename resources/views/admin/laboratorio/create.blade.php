@@ -1,0 +1,48 @@
+@extends('layouts.app')
+
+@section('content')
+    <h3 class="page-title">@lang('global.laboratorios.title')</h3>
+    {!! Form::open(['method' => 'POST', 'route' => ['admin.laboratorios.store']]) !!}
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @lang('global.app_create')
+        </div>
+        
+
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('nombrelab', 'Nombre Laboratorio*', ['class' => 'control-label']) !!}
+                    {!! Form::text('nombrelab', old('nombrelab'), ['class' => 'form-control', 'placeholder' => '']) !!}
+                    <p class="help-block"></p>
+                    <!-- @if($errors->has('nombrelab'))
+                        <p class="help-block">
+                            {{ $errors->first('nombrelab') }}
+                        </p>
+                    @endif -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('nummaquinas', 'Numero de Maquinas*', ['class' => 'control-label']) !!}
+                    {!! Form::text('nummaquinas', old('nummaquinas'), ['class' => 'form-control', 'placeholder' => '']) !!}
+                    <p class="help-block"></p>
+                    <!-- @if($errors->has('nummaquinas'))
+                        <p class="help-block">
+                            {{ $errors->first('nummaquinas') }}
+                        </p>
+                    @endif -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    {!! Form::submit(trans('global.app_save'), ['class' => 'btn btn-danger']) !!}
+    {!! Form::close() !!}
+
+        
+@stop
+
