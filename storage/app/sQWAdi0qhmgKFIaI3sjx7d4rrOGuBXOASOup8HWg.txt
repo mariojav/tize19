@@ -1,0 +1,9 @@
+Nombre,Apellido paterno,Apellido materno,cédula,Cod siss,Correo,Contraseña,Rol
+Gabriel,Ramos,Iriarte,1000000,201603445,docente@docente.com,blablabla,docente
+Armando,Paredes,Delgado,1000001,201503433,docente@docente.com,blebleble,docente
+Mario,Rojas,Coria,1000002,201403484,auxiliar@auxiliar.com,lalalalala,auxiliar
+Zulma,Mollo,Lopez,1000003,201303475,auxiliar@auxiliar.com,lelelelele,auxiliar
+Daniel,Huanca,Teran,1000004,201203466,estudiante@estudiante.com,jajajajaja,estudiante
+Vania,Torrez,Achá,1000005,201103470,estudiante@estudiante.com,jejejejeje,estudiante
+Perengano,Blanco,Soto,1000006,201003448,administrador@administrador.com,aaaaa,administrador
+Carlos,Fuentes,Claros,1000007,201546509,Carliposporsiempre@gmail.com,notengo,administrator
